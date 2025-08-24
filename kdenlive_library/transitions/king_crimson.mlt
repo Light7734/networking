@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="7.32.0" root="/home/light" producer="playlist0">
+  <profile description="2.5K QHD 1440p 60 fps" width="2560" height="1440" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="49">
+    <property name="length">50</property>
+    <property name="eof">pause</property>
+    <property name="resource">kdenlive/King Crimson VFX Green Screen [AtWxezLXUP0]-24fps.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="vstream">0</property>
+    <property name="astream">0</property>
+    <property name="kdenlive:control_uuid">{22903b38-3079-4237-a972-43c82ae610ae}</property>
+    <property name="kdenlive:originalurl">kdenlive/King Crimson VFX Green Screen [AtWxezLXUP0]-24fps.mp4</property>
+    <property name="kdenlive:id">8</property>
+    <property name="kdenlive:clip_type">0</property>
+    <property name="kdenlive:file_size">1345370</property>
+    <property name="kdenlive:file_hash">67f214e6734d4851e2d1567b3f5a70da</property>
+    <property name="kdenlive:folderid">25</property>
+    <property name="kdenlive:monitorPosition">0</property>
+    <property name="kdenlive:kextractor">1</property>
+    <property name="kdenlive:meta.extractor.Bitrate">12874 kb/s</property>
+    <property name="kdenlive:clipname">king_crimson</property>
+    <property name="mute_on_pause">0</property>
+    <filter id="filter16">
+      <property name="key">0=0x01d900ff</property>
+      <property name="variance">0=0.447</property>
+      <property name="mlt_service">chroma</property>
+      <property name="kdenlive_id">chroma</property>
+      <property name="kdenlive:collapsed">0</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <entry producer="chain0" in="0" out="49"/>
+  </playlist>
+</mlt>
