@@ -19,30 +19,31 @@ or Mold Linker
 
 As you can see, mold uses all available cores throughout its execution and finishes quickly. In contrast, lld fails to utilize available cores most of the time. 
 
-On a side-note, this project could you financial support...
 The next step is to replace Make with
 ## Ninja 
 no not this guy, but the build tool.
 
-CCache
+## CCache
 
-Upgrade Compilers
+## Upgrade Compilers
 
 Next item is... disabling your
-Anti Virus
+## Anti Virus / Windows Defender
 
-Ensure Parallel Build
+# Ensure Parallel Build
 
 -- Code Changes -- (from least to most intrusive)
-Minimize Includes
+# Modules
 
-Forward Declaration
 
-Precompiled Headers
+# Minimize Includes
 
-Unity Builds
+# Forward Declaration
 
-Modules
+# Precompiled Headers
+
+# Unity Builds
+
 
 -- Shut Up and Take My Money --
 Upgrade Hardware
@@ -50,7 +51,7 @@ Upgrade Hardware
 Build Over Network
 
 
-# Sources
+# References
 
 ## Repositories
 Mold: https://github.com/rui314/mold
