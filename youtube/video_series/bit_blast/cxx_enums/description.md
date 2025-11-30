@@ -6,7 +6,7 @@ _Scoped Declaration_: https://godbolt.org/z/oT5TbP6vx
 _Anonymous Declaration_: https://godbolt.org/z/s97n5jETs
 _Scoped vs Unscoped_: https://godbolt.org/z/h65cjMEhb
 _Explicit Underlying Type_: https://godbolt.org/z/ehY7Gns6E
-_Default Case_: https://godbolt.org/z/a6KWE8b4c
+_No Default Case_: https://godbolt.org/z/a6KWE8b4c
 _Utilize Zero_: https://godbolt.org/z/fvE6z9jMf
 _Utilize Counting_: https://godbolt.org/z/5EEhYrcr9
 _Using Enum Syntax_: https://godbolt.org/z/shaE6Yc64
